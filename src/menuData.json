@@ -1,0 +1,89 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "name": "Margherita",
+      "description": "Semplice pizza con pomodoro, mozzarella e basilico fresco.",
+      "price": "7.50",
+      "image": "/image/margherita.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "description": "Pizza con pomodoro, mozzarella e fette di pepperoni piccante.",
+      "price": "8.50",
+      "image": "image/peperoni.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Quattro Stagioni",
+      "description": "Pizza divisa in quattro sezioni con diversi ingredienti: funghi, prosciutto cotto, carciofi e olive.",
+      "price": "9.00",
+      "image": "image/sale.jpg"
+    }
+  ],
+
+  "pizzaSpeciale": [
+    {
+      "id": 1,
+      "name": "Margherita",
+      "description": "Semplice pizza con pomodoro, mozzarella e basilico fresco.",
+      "price": "7.50",
+      "image": "/image/margherita.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "description": "Pizza con pomodoro, mozzarella e fette di pepperoni piccante.",
+      "price": "8.50",
+      "image": "image/peperoni.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Quattro Stagioni",
+      "description": "Pizza divisa in quattro sezioni con diversi ingredienti: funghi, prosciutto cotto, carciofi e olive.",
+      "price": "9.00",
+      "image": "image/sale.jpg"
+    }
+  ],
+
+  "fritti": [
+    {
+      "id": 1,
+      "name": "Patatine Fritte",
+      "description": "Porzione generosa di patatine fritte, croccanti e dorate.",
+      "price": "3.50",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Fries_2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Arancini",
+      "description": "Sfere di riso ripiene di ragù, piselli e mozzarella, fritte fino a diventare croccanti.",
+      "price": "5.00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Arancini_plate_at_Green_Gourmet.JPG"
+    }
+  ],
+  "bevande": [
+    {
+      "id": 1,
+      "name": "Acqua Naturale",
+      "description": "Bottiglia da 500ml di acqua naturale.",
+      "price": "1.50",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bottled_Water.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Coca Cola",
+      "description": "Lattina da 330ml di Coca Cola.",
+      "price": "2.50",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_can.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birra Artigianale",
+      "description": "Bottiglia da 330ml di birra artigianale locale.",
+      "price": "4.00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Beer_in_glass.jpg"
+    }
+  ]
+}
