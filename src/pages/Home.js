@@ -9,7 +9,7 @@ const colorG = grey[900];
 
 function Home() {
     return (
-        <Container maxWidth="sm" style={{ marginTop: '0px', textAlign: 'center' }}>
+        <Container maxWidth="sm" style={{ marginTop: '20px', textAlign: 'center' }}>
             <Box sx={{ width: '100%', overflow: 'hidden' }}>
                 <img src={welcomeImage} alt="Descrizione dell'immagine" style={{ width: '100%', height: 'auto', marginBottom: '20px' }} />
             </Box>
