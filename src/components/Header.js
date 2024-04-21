@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from 'react-router-dom';
@@ -58,7 +59,7 @@ function Header() {
                         }
                     }}
                 >
-                    <MenuItem onClick={handleClose} component={Link} to="/" sx={{ color: 'black' }}>Home</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/" sx={{ color: 'blue' }}>Home</MenuItem>
                     <MenuItem onClick={handleClose} component={Link} to="/pizza" sx={{ color: 'black' }}>Pizze</MenuItem>
                     <MenuItem onClick={handleClose} component={Link} to="/fritti" sx={{ color: 'black' }}>Fritti</MenuItem>
                     <MenuItem onClick={handleClose} component={Link} to="/bevande" sx={{ color: 'black' }}>Bevande</MenuItem>
