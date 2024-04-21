@@ -22,7 +22,7 @@ function Pizza() {
             <br/>
             <h2 align='center'>le pizze speciali</h2>
             <hr/>
-            <br/>
+            <hr/>
             <Grid container spacing={4} justifyContent="center">
                 {menuData.pizzaSpeciale.map(pizzaSpeciale => (
                     <Grid item key={pizzaSpeciale.id} xs={12} sm={6} md={4}>
