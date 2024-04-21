@@ -6,7 +6,7 @@ function ProductCard({ product }) {
         <Card raised>
             <CardMedia
                 component="img"
-                height="140"
+                height="150"
                 image={product.image}
                 alt={product.name}
             />

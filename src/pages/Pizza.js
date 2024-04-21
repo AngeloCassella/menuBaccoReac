@@ -19,10 +19,9 @@ function Pizza() {
                     </Grid>
                 ))}
             </Grid>
+            <h2 style={{ marginTop: '30px', textAlign: 'center' }} >le pizze speciali</h2>
+            <hr/>
             <br/>
-            <h2 align='center'>le pizze speciali</h2>
-            <hr/>
-            <hr/>
             <Grid container spacing={4} justifyContent="center">
                 {menuData.pizzaSpeciale.map(pizzaSpeciale => (
                     <Grid item key={pizzaSpeciale.id} xs={12} sm={6} md={4}>
@@ -31,7 +30,6 @@ function Pizza() {
                 ))}
             </Grid>
         </Container>
-        
     );
 }
 
