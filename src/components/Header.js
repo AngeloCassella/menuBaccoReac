@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Box } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Menu, MenuItem, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -27,11 +27,19 @@ function Header() {
             <Toolbar>
                 <IconButton
                     edge="start"
-                    sx={{ color: 'white' }}
-                    aria-label="menu"
+                    color="inherit"
+                    aria-label="open menu"
                     onClick={handleClick}
                 >
                     <MenuIcon />
+                </IconButton>
+                <IconButton
+                    color="inherit"
+                    aria-label="go to homepage"
+                    component={Link}
+                    to="/"
+                >
+                    <HomeIcon />
                 </IconButton>
                 <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <img src={logoImage} alt="Logo" style={{ maxHeight: '80px' }} />
