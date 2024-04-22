@@ -21,7 +21,7 @@ function Header() {
 
     return (
         <AppBar position="static" sx={{ 
-            backgroundColor: 'red', 
+            backgroundColor: 'black', 
             color: 'white'
         }}>
             <Toolbar>
