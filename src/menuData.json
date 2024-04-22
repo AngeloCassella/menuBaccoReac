@@ -85,5 +85,28 @@
       "price": "4.00",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Beer_in_glass.jpg"
     }
+  ],
+  "altro": [
+    {
+      "id": 1,
+      "name": "Acqua Naturale",
+      "description": "Bottiglia da 500ml di acqua naturale.",
+      "price": "1.50",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bottled_Water.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Coca Cola",
+      "description": "Lattina da 330ml di Coca Cola.",
+      "price": "2.50",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_can.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birra Artigianale",
+      "description": "Bottiglia da 330ml di birra artigianale locale.",
+      "price": "4.00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Beer_in_glass.jpg"
+    }
   ]
 }

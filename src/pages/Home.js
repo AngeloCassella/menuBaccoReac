@@ -23,6 +23,9 @@ function Home() {
                 <Button variant="contained" component={Link} to="/bevande" color="inherit">
                     Bevande
                 </Button>
+                <Button variant="contained" component={Link} to="/altro" color="inherit">
+                    altro
+                </Button>
             </Stack>
         </Container>
     );
