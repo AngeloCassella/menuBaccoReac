@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
+import { Card, CardMedia, CardContent, Typography} from '@mui/material';
 
 function ProductCard({ product }) {
     return (

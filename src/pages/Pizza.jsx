@@ -9,8 +9,8 @@ function Pizza() {
 
     return (
         <Container style={{ marginTop: '20px' }}>
-            <Button onClick={() => navigate('/')} style={{ marginBottom: '10px' }}>
-                Torna alla Home
+            <Button onClick={() => navigate('/menu')} style={{ marginBottom: '10px' }}>
+                Torna al Menù
             </Button>
             <Grid container spacing={4} justifyContent="center">
                 {menuData.pizza.map(pizza => (

@@ -7,6 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from 'react-router-dom';
 import logoImage from '../image/logo.jpg';
 
+
 function Header() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -45,12 +46,12 @@ function Header() {
                     <img src={logoImage} alt="Logo" style={{ maxHeight: '80px' }} />
                 </Box>
                 <Box>
-                    <a href="https://www.facebook.com/yourfacebookpage" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/lacortedibaccocusano/" target="_blank" rel="noopener noreferrer">
                         <IconButton sx={{ color: 'white' }} aria-label="facebook">
                             <FacebookIcon />
                         </IconButton>
                     </a>
-                    <a href="https://www.instagram.com/yourinstagramhandle" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/lacortedibacco_/" target="_blank" rel="noopener noreferrer">
                         <IconButton sx={{ color: 'white' }} aria-label="instagram">
                             <InstagramIcon />
                         </IconButton>
@@ -68,9 +69,9 @@ function Header() {
                     }}
                 >
                     <MenuItem onClick={handleClose} component={Link} to="/" sx={{ color: 'blue' }}>Home</MenuItem>
-                    <MenuItem onClick={handleClose} component={Link} to="/pizza" sx={{ color: 'black' }}>Pizze</MenuItem>
-                    <MenuItem onClick={handleClose} component={Link} to="/fritti" sx={{ color: 'black' }}>Fritti</MenuItem>
-                    <MenuItem onClick={handleClose} component={Link} to="/bevande" sx={{ color: 'black' }}>Bevande</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/Menu" sx={{ color: 'black' }}>Menu</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/Vini" sx={{ color: 'black' }}>Carta dei vini</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/Bevande" sx={{ color: 'black' }}>Bevande</MenuItem>
                 </Menu>
             </Toolbar>
         </AppBar>

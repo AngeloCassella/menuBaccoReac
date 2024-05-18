@@ -9,13 +9,13 @@ function Bevande() {
 
     return (
         <Container style={{ marginTop: '20px' }}>
-            <Button onClick={() => navigate('/')} style={{ marginBottom: '10px' }}>
-                Torna alla Home
+            <Button onClick={() => navigate('/menu')} style={{ marginBottom: '10px' }}>
+                Torna al Menù
             </Button>
             <Grid container spacing={4} justifyContent="center">
-                {menuData.bevande.map(bevanda => (
-                    <Grid item key={bevanda.id} xs={12} sm={6} md={4}>
-                        <ProductCard product={bevanda} />
+                {menuData.bevande.map(bevande => (
+                    <Grid item key={bevande.id} xs={12} sm={6} md={4}>
+                        <ProductCard product={bevande} />
                     </Grid>
                 ))}
             </Grid>

@@ -4,18 +4,18 @@ import { Container, Button, Grid } from '@mui/material';
 import ProductCard from '../components/ProductCard';  // Assicurati che il percorso sia corretto
 import menuData from '../menuData.json';  // Assicurati che il percorso sia corretto
 
-function Fritti() {
+function Vini() {
     const navigate = useNavigate();  // Ottieni la funzione navigate
 
     return (
         <Container style={{ marginTop: '20px' }}>
-            <Button onClick={() => navigate('/')} style={{ marginBottom: '10px' }}>
-                Torna alla Home
+            <Button onClick={() => navigate('/menu')} style={{ marginBottom: '10px' }}>
+                Torna al Menù
             </Button>
             <Grid container spacing={4} justifyContent="center">
-                {menuData.fritti.map(item => (
-                    <Grid item key={item.id} xs={12} sm={6} md={4}>
-                        <ProductCard product={item} />
+                {menuData.vini.map(vini => (
+                    <Grid item key={vini.id} xs={12} sm={6} md={4}>
+                        <ProductCard product={vini} />
                     </Grid>
                 ))}
             </Grid>
@@ -23,4 +23,4 @@ function Fritti() {
     );
 }
 
-export default Fritti;
+export default Vini;

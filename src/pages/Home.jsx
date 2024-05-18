@@ -1,11 +1,7 @@
 import React from 'react';
 import { Button, Stack, Container, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
-import welcomeImage from '../image/welcome.jpg';  // Assicurati che il percorso sia corretto
-import { grey } from '@mui/material/colors';
-
-const colorG = grey[900];
-
+import welcomeImage from '../image/welcome.jpg';
 
 function Home() {
     return (
@@ -14,11 +10,11 @@ function Home() {
                 <img src={welcomeImage} alt="Descrizione dell'immagine" style={{ width: '100%', height: 'auto', marginBottom: '20px' }} />
             </Box>
             <Stack direction="column" spacing={2}>
-                <Button variant="contained" component={Link} to="/pizza" color="inherit">
-                    Pizze
+                <Button variant="contained" component={Link} to="/menu" color="inherit">
+                    Menu
                 </Button>
-                <Button variant="contained" component={Link} to="/fritti" color="inherit">
-                    Fritti
+                <Button variant="contained" component={Link} to="/vini" color="inherit">
+                    Carta Dei Vini
                 </Button>
                 <Button variant="contained" component={Link} to="/bevande" color="inherit">
                     Bevande
